@@ -370,7 +370,8 @@ $watched-transition-duration: 0.5s;
     &:hover .externalPlayerIcon,
     &:has(:focus-visible) .addToPlaylistIcon:not(.alwaysVisible),
     &:has(:focus-visible) .quickBookmarkVideoIcon:not(.alwaysVisible),
-    &:has(:focus-visible) .externalPlayerIcon {
+    &:has(:focus-visible) .externalPlayerIcon,
+    .videoDuration {
       opacity: 1;
     }
 
@@ -381,6 +382,7 @@ $watched-transition-duration: 0.5s;
       opacity: 1;
     }
 
+    &:hover .videoDuration,
     .quickBookmarkVideoIcon:not(.alwaysVisible),
     .addToPlaylistIcon:not(.alwaysVisible),
     .externalPlayerIcon,
